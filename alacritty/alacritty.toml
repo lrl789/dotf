@@ -1,0 +1,48 @@
+[colors.normal]
+    black = "#000000"
+
+    red = "#E30000"
+
+    green = "#008000"
+
+    yellow = "#B8B800"
+
+    blue = "#0000FF"
+
+    magenta = "#FF00FF"
+
+    cyan = "#00FFFF"
+
+    white = "#ffffff"
+
+[window]
+opacity = 0.8
+
+  [window.dimensions]
+  columns = 100
+  lines = 30
+
+  [window.padding]
+  x = 6
+  y = 6
+
+[font]
+size = 7.2
+
+  [font.normal]
+  family = "DinaRemasterII"
+  style = "Regular"
+
+[colors.primary]
+foreground = "#ffffff"
+background = "#000000"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"

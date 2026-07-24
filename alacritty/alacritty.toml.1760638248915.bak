@@ -1,0 +1,28 @@
+# Alacritty configuration file
+
+# Window settings
+[window]
+dimensions = { columns = 100, lines = 30 }
+padding = { x = 6, y = 6 }
+opacity = 0.7
+
+# Font settings
+[font]
+normal = { family = "FreeMono", style = "Regular" }
+size = 10.0
+
+# Color scheme (simple white on black)
+[colors.primary]
+foreground = "#ffffff"
+background = "#000000"
+
+# Key bindings (basic copy/paste)
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"

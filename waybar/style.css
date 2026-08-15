@@ -2,14 +2,14 @@
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, DinaRemasterII;
     font-size: 16px;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 window#waybar {
-      background: transparent;
+      background: #000000;
   /*  background: linear-gradient(#343742 10%, transparent);*/
   /*  border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
-    color: #c3c5cc;
+    color: #e2dc23;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -53,7 +53,7 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+    background-color: #000000;
 }
 
 #workspaces button {
@@ -107,7 +107,7 @@ button:hover {
 #workspaces {
     margin: 0 4px;
 }
-
+ 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
@@ -121,17 +121,17 @@ button:hover {
 
 #clock {
 	background-color: transparent;
-	color: #c3c5cc;
+	color: #e2dc23;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #e2dc23;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
+    color: #e2dc23;
+    background-color: #000000;
 }
 
 @keyframes blink {
@@ -143,8 +143,8 @@ button:hover {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: #ffffff;
+    background-color: #000000;
+    color: #eeeeee;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -177,40 +177,41 @@ label:focus {
 
 #cpu {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #memory {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #disk {
-    background-color: #964B00;
+    background-color: #000000;
 }
 
 #backlight {
-    background-color: #90b1b1;
+    background-color: #e2dc23;
+
 }
 
 #network {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #network.disconnected {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #pulseaudio {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #pulseaudio.muted {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #wireplumber {
@@ -238,17 +239,17 @@ label:focus {
 
 #temperature {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #temperature.critical {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #tray {
     background-color: transparent;
-    color: #c3c5cc;
+    color: #e2dc23;
 }
 
 #tray > .passive {
